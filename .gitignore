@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Data
+data/raw/
+data/processed/
+
+# DVC local storage
+.dvc/
+
+# MLflow artifacts
+mlruns/
+
+# Colab
+.ipynb_checkpoints/
