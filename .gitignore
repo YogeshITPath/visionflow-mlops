@@ -7,10 +7,17 @@ data/raw/
 data/processed/
 
 # DVC local storage
+.dvc_storage/
 .dvc/
 
-# MLflow artifacts
+# MLflow
 mlruns/
 
-# Colab
+# Models (tracked with DVC)
+models/
+
+# Notebooks
 .ipynb_checkpoints/
+
+# OS
+.DS_Store
