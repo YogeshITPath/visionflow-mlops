@@ -1,23 +1,7 @@
-# Python
 __pycache__/
-*.pyc
-
-# Data
-data/raw/
-data/processed/
-
-# DVC local storage
-.dvc_storage/
-.dvc/
-
-# MLflow
-mlruns/
-
-# Models (tracked with DVC)
-models/
-
-# Notebooks
 .ipynb_checkpoints/
-
-# OS
-.DS_Store
+.dvc_storage/
+mlruns/
+outputs/
+models/*.pth
+*.pyc
